@@ -17,7 +17,7 @@ class AdminLoginApplicationTests {
 
     
     @Test
-    @Order(2)
+    @Order(1)
     public void testAdminLogin() {
         String jsonbody= "{\"email\" : \"admin@gmail.com\",\"password\" : \"admin\"}";
         String token=given()
